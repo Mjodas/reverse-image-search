@@ -1,0 +1,13 @@
+name: RIS # Reverse Image Search
+dependencies:
+- python=3.7.7
+- scikit-learn
+- pandas
+- matplotlib
+- pip
+- pip:
+  - azureml-core
+  - azureml-pipeline-core
+  - azureml-pipeline-steps
+  - azureml-widgets
+  - tensorflow-gpu==2.2.0
